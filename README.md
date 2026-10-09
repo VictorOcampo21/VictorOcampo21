@@ -39,8 +39,7 @@
 
 **Cloud & tools**
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash_scripting-4EAA25?style=flat&logo=gnubash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 **Currently learning**
@@ -91,7 +90,7 @@ Built end to end for an ophthalmologist who works across five clinics in Costa R
 - **Data model:** each patient has a profile, a clinical history (consultation forms) and a surgical history (signed surgery forms).
 - **Images:** uploaded from the browser, compressed and optimized, stored on the VM's disk, with their paths kept in PostgreSQL.
 - **Backups:** daily automated backups of the database and the images with 7-day retention, already used to restore data after real incidents.
-- **Security:** role-based access, HTTPS with an SSL certificate, firewall and network rules on Azure, and controlled SSH access.
+- **Security:** role-based access, HTTPS with an SSL certificate, firewall rules on Azure, and controlled SSH access.
 - **Appointments:** appointment calendar with WhatsApp reminders to patients.
 
 ```mermaid
@@ -152,7 +151,7 @@ flowchart LR
 <br>
 
 - Log ingestion flow (in progress) for a government judicial entity: Apache NiFi collects application logs from multiple virtual machines, extracts the key fields and loads them into a database that the analytics team uses to feed KPIs to an AI support agent.
-- Development, maintenance and migration of SSIS ETL processes for a regional financial institution, within a five-person data team.
+- Modernization of legacy SSIS ETL and SQL processes for a regional financial institution: adapting existing packages to new tables and servers, troubleshooting incremental loads and resolving data tickets.
 
 </details>
 
